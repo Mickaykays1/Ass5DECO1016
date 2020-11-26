@@ -1,4 +1,124 @@
-.header1 {
-  background-color: solid green;
-  grid-area: header;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
+header {
+  position: fixed;
+  background: #0084D4;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  padding-left: 30px;
+  padding-right:30px;
+  padding-top:30px;
+  padding-bottom:10px;
+  top : 0px;
+  left: 0px;
+  width: 100%;
+
 }
+
+.headercontent{  
+  margin-top: 100px ;
+}
+
+.social-links {
+  display: inline;    
+  /* border: 1px solid red; */
+}
+
+.social-links a {
+  margin-right: 10px;
+}
+
+.page-links {
+  display: inline;    
+  float: right; 
+  margin-right: 50px;
+}
+
+.page-links a {
+  margin-left: 10px;
+}
+
+.Main { 
+  width: 100%;
+  padding-top:70px;
+  font-family:  'Quicksand', sans-serif;
+}
+
+.first{
+  background-image: url("Image/TP.jpg");
+  width:100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img{
+  padding: none;
+}
+
+.Footer { 
+  width:100%;
+}
+
+.button  {
+  background-color:#C7622B;
+  border: 2px solid #073B4C;
+  color: #073B4C;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 600px;
+  padding: 20px 60px;
+}
+.button:hover {
+  background-color: white;
+}
+
+.button1  {
+  background-color: none;
+  border: none;
+  color: white;
+  font-size: 150%;
+  text-decoration: none;
+}
+
+.button1:hover {
+  color: orangered;
+}
+
+.circle {
+  background: white;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  padding: 4px 6px;
+  box-sizing: border-box;
+}
+
+.circle:hover{
+  background:orangered;
+}
+
+i{
+  color: orangered;
+}
+
+i:hover{
+  color: white;
+}
+ 
+.logo{
+  background-color: white;
+  width:100%;
+}
+
+.logo-img{
+  float:right;
+  margin-right:50px;
+
+}
+
